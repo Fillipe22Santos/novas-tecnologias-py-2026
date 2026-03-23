@@ -1,4 +1,4 @@
-class Equipamento:
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwclass Equipamento:
     def __init__(self, id_equipamento, nome, preco_diaria):
         self.id_equipamento = id_equipamento
         self.nome = nome
