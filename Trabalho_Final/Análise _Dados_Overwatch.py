@@ -15,6 +15,14 @@ df = pd.read_csv(
 
 df_media = df.dropna(subset=["Average Players"])
 
+# -------------------------------------------------------------------
+#    converte a data para formato real de data
+# -------------------------------------------------------------------
+
+df["DateTime"] = pd.to_datetime(df["DateTime"])
+
+
+
 print(df.head())
 print(df.info())
 print(df.shape)
