@@ -21,7 +21,15 @@ df_media = df.dropna(subset=["Average Players"])
 
 df["DateTime"] = pd.to_datetime(df["DateTime"])
 
+# -------------------------------------------------------------------
+#    cria o primeiro grafico com matplotlib
+# -------------------------------------------------------------------
 
+import matplotlib.pyplot as plt
+
+plt.plot(df["Players"])
+
+plt.show()
 
 print(df.head())
 print(df.info())
